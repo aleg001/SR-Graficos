@@ -137,8 +137,8 @@ def SoftwareRender4(filename):
     r = Render(1920, 1080)
     r.shaderUsed = Shader.flatShading
     r.glModel(
-        "Teddybear.obj",
-        translation=V3(1100, 80, 1500),
+        "sphere.obj",
+        translation=V3(1920 / 2, 1080 / 2, 0),
         scalationFactor=V3(800, 800, 800),
         rotation=V3(90, 190, 90),
     )
